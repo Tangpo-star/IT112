@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Score Grader</title> <!-- Sets the browser tab title -->
+</head>
+<body>
+  <script>
+    // Function that takes a numeric score and returns a grade message
+    function assignedScore(score) {
+      if (score >= 90) {
+        return "WOW! You scored an A!";
+      } else if (score >= 80) {
+        return "Great job! You scored a B!";
+      } else if (score >= 70) {
+        return "Nice work! You scored a C!";
+      } else if (score >= 60) {
+        return "You passed with a D.";
+      } else {
+        return "Oops! You scored an F.";
+      }
+    }
+
+    // Show the result right away when the page loads
+    alert(assignedScore(95)); // You can change 95 to test other scores
+  </script>
+</body>
+</html>

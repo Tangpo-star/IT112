@@ -1,0 +1,42 @@
+/* =======================
+   Color styling for list items
+   ======================= */
+
+.crimson {
+    color: crimson; /* Used for Alabama and Oklahoma */
+}
+
+.green {
+    color: green; /* Used for Notre Dame and Miami */
+}
+
+.maize {
+    color: #FFCB05; /* Maize color for Michigan (official hex) */
+}
+
+.red {
+    color: red; /* Used for Ohio State, USC, and Nebraska */
+}
+
+.burntorange {
+    color: #BF5700; /* Burnt orange for Texas Longhorns */
+}
+
+
+/* Button styling using ID selectors /
+
+#yes {
+    background-color: green; /* Green background for "YES" */
+    color: white;            /* White text */
+    padding: 6px 12px;       /* Space inside the button */
+    border: none;            /* No border */
+    font-weight: bold;       /* Bold text */
+}
+
+#no {
+    background-color: red;   /* Red background for "NO" */
+    color: white;            /* White text */
+    padding: 6px 12px;
+    border: none;
+    font-weight: bold;
+}
